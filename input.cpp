@@ -4,9 +4,10 @@ using namespace std;
 int main()
 {
 
-    int age = 24;
+    int age;
     string name;
     string institute;
+
     char group;
     float cgpa;
 
@@ -25,11 +26,16 @@ int main()
     cout << "Enter your cgpa";
     cin >> cgpa;
 
+    int ascii = group;
+
     cout << "My name is:" << name << endl
          << "Age:" << age << '\n'
          << "Institute:" << institute << '\n'
          << "Group:" << group << endl
-         << "cgpa:" << cgpa;
+         << "cgpa:" << cgpa << endl;
+
+    cout << "Ascii of Group:" << ascii << endl;
+    cout << "Type Casting of Group:" << (int)group;
 
     return 0;
 }

@@ -1,0 +1,2 @@
+ // delete[] dhoni;
+    // delete[] kohli;
